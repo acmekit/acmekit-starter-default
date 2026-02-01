@@ -8,13 +8,11 @@
     "sqlite",
     "postgres",
     "typescript",
-    "ecommerce",
     "headless",
     "acmekit"
   ],
   "scripts": {
     "build": "acmekit build",
-    "seed": "acmekit exec ./src/scripts/seed.ts",
     "start": "acmekit start",
     "dev": "acmekit develop",
     "test:integration:http": "TEST_TYPE=integration:http NODE_OPTIONS=--experimental-vm-modules jest --silent=false --runInBand --forceExit",

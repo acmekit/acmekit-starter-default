@@ -25,7 +25,7 @@ export default Post
 
 ## 2. Create a Service
 
-A module must define a service. A service is a TypeScript or JavaScript class holding methods related to a business logic or commerce functionality.
+A module must define a service. A service is a TypeScript or JavaScript class holding methods related to your business logic.
 
 For example, create the file `src/modules/blog/service.ts` with the following content:
 

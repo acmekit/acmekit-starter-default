@@ -17,7 +17,7 @@
 </h4>
 
 <p align="center">
-  Building blocks for digital commerce
+  Backend framework and building blocks for applications
 </p>
 <p align="center">
   <a href="https://github.com/acmekitjs/acmekit/blob/master/CONTRIBUTING.md">
@@ -44,9 +44,9 @@ Visit the [Docs](https://docs.acmekitjs.com/learn/installation#get-started) to l
 
 ## What is Acmekit
 
-Acmekit is a set of commerce modules and tools that allow you to build rich, reliable, and performant commerce applications without reinventing core commerce logic. The modules can be customized and used to build advanced ecommerce stores, marketplaces, or any product that needs foundational commerce primitives. All modules are open-source and freely available on npm.
+Acmekit is a backend framework with modules and tools for building reliable, performant applications. Modules can be customized and composed for your use case. All modules are open-source and freely available on npm.
 
-Learn more about [Acmekit's architecture](https://docs.acmekitjs.com/learn/introduction/architecture) and [commerce modules](https://docs.acmekitjs.com/learn/fundamentals/modules/commerce-modules) in the Docs.
+Learn more about [Acmekit's architecture](https://docs.acmekitjs.com/learn/introduction/architecture) and [modules](https://docs.acmekitjs.com/learn/fundamentals/modules) in the Docs.
 
 ## Build with AI Agents
 

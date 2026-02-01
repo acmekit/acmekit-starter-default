@@ -11,18 +11,15 @@ To create a custom CLI script, create a TypeScript or JavaScript file under the 
 For example, create the file `src/scripts/my-script.ts` with the following content:
 
 ```ts title="src/scripts/my-script.ts"
-import { 
-  ExecArgs,
-} from "@acmekit/framework/types"
+import { ExecArgs } from "@acmekit/framework/types"
+import { ContainerRegistrationKeys } from "@acmekit/framework/utils"
 
 export default async function myScript ({
   container
 }: ExecArgs) {
-  const productModuleService = container.resolve("product")
+  const logger = container.resolve(ContainerRegistrationKeys.LOGGER)
 
-  const [, count] = await productModuleService.listAndCountProducts()
-
-  console.log(`You have ${count} product(s)`)
+  logger.info("Custom script ran successfully")
 }
 ```
 
