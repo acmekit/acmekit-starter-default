@@ -21,13 +21,13 @@
     "test:unit": "TEST_TYPE=unit NODE_OPTIONS=--experimental-vm-modules jest --silent --runInBand --forceExit"
   },
   "dependencies": {
-    "@acmekit/acmekit": "2.13.4",
-    "@acmekit/admin-sdk": "2.13.4",
-    "@acmekit/cli": "2.13.4",
-    "@acmekit/framework": "2.13.4"
+    "@acmekit/acmekit": "2.13.5",
+    "@acmekit/admin-sdk": "2.13.5",
+    "@acmekit/cli": "2.13.5",
+    "@acmekit/framework": "2.13.5"
   },
   "devDependencies": {
-    "@acmekit/test-utils": "2.13.4",
+    "@acmekit/test-utils": "2.13.5",
     "@swc/core": "^1.7.28",
     "@swc/jest": "^0.2.36",
     "@types/jest": "^29.5.13",
