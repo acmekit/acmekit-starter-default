@@ -5,61 +5,61 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
-"@acmekit/acmekit@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/acmekit@npm:2.13.3"
+"@acmekit/acmekit@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/acmekit@npm:2.13.4"
   dependencies:
-    "@acmekit/admin-bundler": "npm:2.13.3"
-    "@acmekit/analytics": "npm:2.13.3"
-    "@acmekit/analytics-local": "npm:2.13.3"
-    "@acmekit/analytics-posthog": "npm:2.13.3"
-    "@acmekit/api-key": "npm:2.13.3"
-    "@acmekit/auth": "npm:2.13.3"
-    "@acmekit/auth-emailpass": "npm:2.13.3"
-    "@acmekit/auth-github": "npm:2.13.3"
-    "@acmekit/auth-google": "npm:2.13.3"
-    "@acmekit/cache-inmemory": "npm:2.13.3"
-    "@acmekit/cache-redis": "npm:2.13.3"
-    "@acmekit/caching": "npm:2.13.3"
-    "@acmekit/caching-redis": "npm:2.13.3"
+    "@acmekit/admin-bundler": "npm:2.13.4"
+    "@acmekit/analytics": "npm:2.13.4"
+    "@acmekit/analytics-local": "npm:2.13.4"
+    "@acmekit/analytics-posthog": "npm:2.13.4"
+    "@acmekit/api-key": "npm:2.13.4"
+    "@acmekit/auth": "npm:2.13.4"
+    "@acmekit/auth-emailpass": "npm:2.13.4"
+    "@acmekit/auth-github": "npm:2.13.4"
+    "@acmekit/auth-google": "npm:2.13.4"
+    "@acmekit/cache-inmemory": "npm:2.13.4"
+    "@acmekit/cache-redis": "npm:2.13.4"
+    "@acmekit/caching": "npm:2.13.4"
+    "@acmekit/caching-redis": "npm:2.13.4"
     "@acmekit/cart": "npm:2.13.2"
-    "@acmekit/core-flows": "npm:2.13.3"
+    "@acmekit/core-flows": "npm:2.13.4"
     "@acmekit/currency": "npm:2.13.2"
-    "@acmekit/customer": "npm:2.13.3"
-    "@acmekit/event-bus-local": "npm:2.13.3"
-    "@acmekit/event-bus-redis": "npm:2.13.3"
-    "@acmekit/file": "npm:2.13.3"
-    "@acmekit/file-local": "npm:2.13.3"
-    "@acmekit/file-s3": "npm:2.13.3"
+    "@acmekit/customer": "npm:2.13.4"
+    "@acmekit/event-bus-local": "npm:2.13.4"
+    "@acmekit/event-bus-redis": "npm:2.13.4"
+    "@acmekit/file": "npm:2.13.4"
+    "@acmekit/file-local": "npm:2.13.4"
+    "@acmekit/file-s3": "npm:2.13.4"
     "@acmekit/fulfillment": "npm:2.13.2"
     "@acmekit/fulfillment-manual": "npm:2.13.2"
-    "@acmekit/index": "npm:2.13.3"
+    "@acmekit/index": "npm:2.13.4"
     "@acmekit/inventory": "npm:2.13.2"
-    "@acmekit/link-modules": "npm:2.13.3"
-    "@acmekit/locking": "npm:2.13.3"
-    "@acmekit/locking-postgres": "npm:2.13.3"
-    "@acmekit/locking-redis": "npm:2.13.3"
-    "@acmekit/notification": "npm:2.13.3"
-    "@acmekit/notification-local": "npm:2.13.3"
-    "@acmekit/notification-sendgrid": "npm:2.13.3"
+    "@acmekit/link-modules": "npm:2.13.4"
+    "@acmekit/locking": "npm:2.13.4"
+    "@acmekit/locking-postgres": "npm:2.13.4"
+    "@acmekit/locking-redis": "npm:2.13.4"
+    "@acmekit/notification": "npm:2.13.4"
+    "@acmekit/notification-local": "npm:2.13.4"
+    "@acmekit/notification-sendgrid": "npm:2.13.4"
     "@acmekit/order": "npm:2.13.2"
     "@acmekit/payment": "npm:2.13.2"
     "@acmekit/payment-stripe": "npm:2.13.2"
     "@acmekit/pricing": "npm:2.13.2"
     "@acmekit/product": "npm:2.13.2"
     "@acmekit/promotion": "npm:2.13.2"
-    "@acmekit/rbac": "npm:2.13.3"
+    "@acmekit/rbac": "npm:2.13.4"
     "@acmekit/region": "npm:2.13.2"
     "@acmekit/sales-channel": "npm:2.13.2"
-    "@acmekit/settings": "npm:2.13.3"
+    "@acmekit/settings": "npm:2.13.4"
     "@acmekit/stock-location": "npm:2.13.2"
-    "@acmekit/store": "npm:2.13.3"
+    "@acmekit/store": "npm:2.13.4"
     "@acmekit/tax": "npm:2.13.2"
-    "@acmekit/telemetry": "npm:2.13.3"
-    "@acmekit/translation": "npm:2.13.3"
-    "@acmekit/user": "npm:2.13.3"
-    "@acmekit/workflow-engine-inmemory": "npm:2.13.3"
-    "@acmekit/workflow-engine-redis": "npm:2.13.3"
+    "@acmekit/telemetry": "npm:2.13.4"
+    "@acmekit/translation": "npm:2.13.4"
+    "@acmekit/user": "npm:2.13.4"
+    "@acmekit/workflow-engine-inmemory": "npm:2.13.4"
+    "@acmekit/workflow-engine-redis": "npm:2.13.4"
     "@inquirer/checkbox": "npm:^2.3.11"
     "@inquirer/input": "npm:^2.2.9"
     boxen: "npm:^5.0.1"
@@ -76,7 +76,7 @@ __metadata:
     slugify: "npm:^1.6.6"
     uuid: "npm:^9.0.0"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
+    "@acmekit/framework": 2.13.4
     "@swc/core": ^1.7.28
     posthog-node: ^5.11.0
     react-dom: ^18.3.1
@@ -90,17 +90,17 @@ __metadata:
       optional: true
     yalc:
       optional: true
-  checksum: 10c0/9046e0a1b4d0c7059bd3c03ec491b22e9752139f0d06dd988cbd1036aa6b61201b2671f77102dd1f279c9aece655033e607e2053f057e600cc6e798593a5d912
+  checksum: 10c0/6a2ac3d493ac7cf7b7056588a031603c0b32cc22f381e5e78ce8785f53842d56aecfa7bcdba6dc971aadcf888f9fd1517217f79abf314c47b0a2c242d47ac3a0
   languageName: node
   linkType: hard
 
-"@acmekit/admin-bundler@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/admin-bundler@npm:2.13.3"
+"@acmekit/admin-bundler@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/admin-bundler@npm:2.13.4"
   dependencies:
-    "@acmekit/admin-shared": "npm:2.13.3"
-    "@acmekit/admin-vite-plugin": "npm:2.13.3"
-    "@acmekit/dashboard": "npm:2.13.3"
+    "@acmekit/admin-shared": "npm:2.13.4"
+    "@acmekit/admin-vite-plugin": "npm:2.13.4"
+    "@acmekit/dashboard": "npm:2.13.4"
     "@vitejs/plugin-react": "npm:^4.2.1"
     autoprefixer: "npm:^10.4.19"
     compression: "npm:^1.8.0"
@@ -111,32 +111,32 @@ __metadata:
     postcss: "npm:^8.4.38"
     tailwindcss: "npm:^3.4.3"
     vite: "npm:^5.4.21"
-  checksum: 10c0/b946232d79f2ff6528cb8bd56ef7d24b8b031c726e514d7d60f364638093590c4de777b4bd2ebf597e9bbd1d96ea6ac79e3dfc3b81270988be67e0c31098bbe0
+  checksum: 10c0/e86187454f90c7654932dfe346510089e9cf0679164070479537b1590edd7344a33ea98709aad10bdd1e50f8d3e8b9d31e48470a5a3bec5b1700961d00e87d68
   languageName: node
   linkType: hard
 
-"@acmekit/admin-sdk@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/admin-sdk@npm:2.13.3"
+"@acmekit/admin-sdk@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/admin-sdk@npm:2.13.4"
   dependencies:
-    "@acmekit/admin-shared": "npm:2.13.3"
+    "@acmekit/admin-shared": "npm:2.13.4"
     zod: "npm:3.25.76"
-  checksum: 10c0/71489cd804fbb7d40c8422ee457c92bd98bfaad826a50cbd4f4b3c12035dbec9bb4b436d97b63d987f305a178667cad06b0ea7808722fab847fa633a0c86154e
+  checksum: 10c0/8942a8ce7ddffd86980029a0f0fb3097355c3cd70b0edafee4c8f8af807233def580c5cce86ac4c9826f688254a262d80f3e5bf59e1261008740f9cc5c4a6c39
   languageName: node
   linkType: hard
 
-"@acmekit/admin-shared@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/admin-shared@npm:2.13.3"
-  checksum: 10c0/90d51979bc68b8d8244349de3cef6009ec0dfa5644473533a322babaa2024b27b2f72f6a18c5ab154288a4836004a4b04cd96c1880576ee217529e52fe08527b
+"@acmekit/admin-shared@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/admin-shared@npm:2.13.4"
+  checksum: 10c0/e6068021afd104265a9d5504b3de6b49f825199467c723fa3e2548f91ec9b6874cc5795cb30bd4c768fd739737b1f40847a1ce95bf3dfa175b6b817bf163bd5a
   languageName: node
   linkType: hard
 
-"@acmekit/admin-vite-plugin@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/admin-vite-plugin@npm:2.13.3"
+"@acmekit/admin-vite-plugin@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/admin-vite-plugin@npm:2.13.4"
   dependencies:
-    "@acmekit/admin-shared": "npm:2.13.3"
+    "@acmekit/admin-shared": "npm:2.13.4"
     "@babel/parser": "npm:7.25.6"
     "@babel/traverse": "npm:7.25.6"
     "@babel/types": "npm:7.25.6"
@@ -147,130 +147,130 @@ __metadata:
     picocolors: "npm:^1.1.0"
   peerDependencies:
     vite: ^5.4.21
-  checksum: 10c0/b84faa658f1af9b48e7cdd6e9e5ae607893cb707f1f78da34ebd7d33c59d17340731a433e0a804f411d087f14a5ac708dbdfdae57bd0ffa7c12b62255c890b72
+  checksum: 10c0/b3c1a0ebacfbfb3a1d5635b99fd08e84e1bf38c4d3da3c16bd49766fbd72bc66dd79828aa71bb9e4a35a3a1a7429e8b67ebaa5427b1cab5cd085c6e1c89d9cb7
   languageName: node
   linkType: hard
 
-"@acmekit/analytics-local@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/analytics-local@npm:2.13.3"
+"@acmekit/analytics-local@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/analytics-local@npm:2.13.4"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/edc6845340ccab63e7aa42e82c2946cece39ef2fdb35e2be161c221852e4cdb1a744a8e94269d95926ffdee3444c834c102e341f2d46fe4ea1e28e2bc71292b5
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/ba7e994cd309a9b54d0015a1f1cea0e913472f8229ad9c1c8772412ece160cad06254f755a052acaa10bc888849afbf16cc2760ccb7d803d1f391ef5b8aedd20
   languageName: node
   linkType: hard
 
-"@acmekit/analytics-posthog@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/analytics-posthog@npm:2.13.3"
+"@acmekit/analytics-posthog@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/analytics-posthog@npm:2.13.4"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
+    "@acmekit/framework": 2.13.4
     posthog-node: ^5.11.0
-  checksum: 10c0/7f4ded200b7670f56368f7e082540f0f05b8e5650bb60a180beb4a9b3c9fa3ad81c5404c9d135a2350e8cf74c2424c656adf552562aa17f575edca98ad66e149
+  checksum: 10c0/013f6a21cfaf86f8120943a5e18d9c15c2a7e8b74bc2927309839167a01369a2bc437ee56f9ddfeae9df5d74863ec11973cf240014dea99a0dfc54bf79302cce
   languageName: node
   linkType: hard
 
-"@acmekit/analytics@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/analytics@npm:2.13.3"
+"@acmekit/analytics@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/analytics@npm:2.13.4"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/9354abc685b9a068e49ac98af7ba88cf8de05aebdf4974004cdcb4b21d15b15c6f87700ed7b6757d21d2968cbcb937a31c0a4d6fef8958b4570e9c1076c75d12
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/4de6cd1ec2582a934b66ef60bed24032731d3527f38e3e2e1ee8fef74c6ccb146e89274d5f909f2d7d677ad04d1bf3de558c81c8984a85cb75b301ca72ed043b
   languageName: node
   linkType: hard
 
-"@acmekit/api-key@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/api-key@npm:2.13.3"
+"@acmekit/api-key@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/api-key@npm:2.13.4"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/ce6b739785696cefdc2d27e3290cd82d2477a320226e7f21c9d48e8bdd631a0235d0894049cbc58f4c022822c04e21ae26ee8ce097ac138522638977a8032e4c
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/d12da88651cec775bf30da49b1add16fc556b8b69d1891b56369711177e32bc8e85b93e908bf3b6b92991ec12a2e3bbd80948ba2bfba340a75cddd97d48d2f18
   languageName: node
   linkType: hard
 
-"@acmekit/auth-emailpass@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/auth-emailpass@npm:2.13.3"
+"@acmekit/auth-emailpass@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/auth-emailpass@npm:2.13.4"
   dependencies:
     scrypt-kdf: "npm:^2.0.1"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/5243c87a80342b0b724a3e5488362011c5a76ada53976587b19c5b1171ef1a7c8cca64de87e000faa5b0b1d19f71326fd9e4cd6fee25d8b5b285965b3c7e0783
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/c822b31a25e542ccb4e3aea90349d41c36bb0e599ad756bb67dd2e6d4cdef4363e5c53e1fa52ebc92a5f4cfb1d5b631c908c0d79710354ff5a86a20d8f60780e
   languageName: node
   linkType: hard
 
-"@acmekit/auth-github@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/auth-github@npm:2.13.3"
+"@acmekit/auth-github@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/auth-github@npm:2.13.4"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/e7b567f67f275c5bf117dd272e957c34217192c6ce90c16fd41a0265ec01421f76135896cbdc1b83d7f7f78cee2b42831667f08a0af4ebbf028eafdbcddf1651
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/ff214706fb5930b2722a4b015f8d1adb47048f0b37b58c8e587f9e0622584235824c45208078b493ff08118fe79a9eb1b37ede452898a5ebdad9635abc0877f6
   languageName: node
   linkType: hard
 
-"@acmekit/auth-google@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/auth-google@npm:2.13.3"
+"@acmekit/auth-google@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/auth-google@npm:2.13.4"
   dependencies:
     jsonwebtoken: "npm:^9.0.2"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/83648428139532c688c4b2328777cd668ec99f3bbb60268dd8034efd87fb08751c013c48876749bffd5aa8f73a476f03d976b2c5e0dce4ab36b03b5b1a54a83b
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/9f7821e0097624fe85f2e9c1da64cb60a543eaf215effa736fc5a78e0f28381b8c916fad106c16e920763664417a70b9403ec03dbe287ee6300556d5a2e89597
   languageName: node
   linkType: hard
 
-"@acmekit/auth@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/auth@npm:2.13.3"
+"@acmekit/auth@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/auth@npm:2.13.4"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/a30f77bc10459938c7c3229d068663899126d63e2eebde68ab4401d4d56753ad03b8308a40125e7cb272416173949d6d97042f72e535317f6a172c73cf78b973
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/508efafa952ae0e6c1e60cb5e5d4bcead69e4ee1b9593594f200d86c09e62aa0f54b15f3c57720e307df7594482067c6ca871b322c7abbf7de6a40efdb55cfa1
   languageName: node
   linkType: hard
 
-"@acmekit/cache-inmemory@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/cache-inmemory@npm:2.13.3"
+"@acmekit/cache-inmemory@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/cache-inmemory@npm:2.13.4"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/b79521148a10469ba5e332fc5756e0088e5d9ed337538292ec07fe9e5b8078475b796b082dc27e1b14f5ae923ec10a7b6f117d6ff7878e1c3d90db8d4a06896a
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/f7eb53bac282a3bf855e2c5dcfcf2320c0d7693c14211f6f5cb8e523896c1c8946f8ea1ce3ed93cbf6cee2d502e32529ca771b7a3cf4615aee5cb0b4d1f90f00
   languageName: node
   linkType: hard
 
-"@acmekit/cache-redis@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/cache-redis@npm:2.13.3"
+"@acmekit/cache-redis@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/cache-redis@npm:2.13.4"
   dependencies:
     ioredis: "npm:^5.4.1"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/4f67f66c74ea249a6c54037f26cbcaba4238c21e8edd700657e9bc869da4884b85196a200ff0c432dfb861a7084ab5b459e6097eefbf629ec3c3953b037564a5
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/8642777284ed3a5be14dd0cdda53ea4fa912f9fa8beb6c67d5a2a2db55e41889c11afcfea4757ab25ca708b11c323f985c8c3f0487273e3ab8f00c9f596438d1
   languageName: node
   linkType: hard
 
-"@acmekit/caching-redis@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/caching-redis@npm:2.13.3"
+"@acmekit/caching-redis@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/caching-redis@npm:2.13.4"
   dependencies:
     ioredis: "npm:^5.4.1"
     xxhash-wasm: "npm:^1.1.0"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/e7bf0730ce106e2d3392a21e4d7b0b6f036d66b6655020c11ea4ed8332e0ec0560f95b578085b8b87668265a6091150773efe75a9eb5c7c7f21abed539a28375
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/aacfa2ec52d3b3d37d9c393dc79b3a4f1c071c9edc8e46a2ab206396a08579742440fb31813345f63c3e91612bd3f4e06395e61aeb7e9b28f00d556747eca922
   languageName: node
   linkType: hard
 
-"@acmekit/caching@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/caching@npm:2.13.3"
+"@acmekit/caching@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/caching@npm:2.13.4"
   dependencies:
     fast-json-stable-stringify: "npm:^2.1.0"
     node-cache: "npm:^5.1.2"
     xxhash-wasm: "npm:^1.1.0"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
+    "@acmekit/framework": 2.13.4
     awilix: ^8.0.1
-  checksum: 10c0/18de1e2ae662da64e6d9f07fc7c01ffcdb69c7189d4fb8d6c7c1efe0202f93ca7e0ea4a0a9899b6eeaaa4846ef878931032d85ff033483b6dc0182bd643ea46d
+  checksum: 10c0/28d10d48b3199c9230e6e9d23e4eeb8d7f77db90aceb58f37f2a9003d81deca92aefbb03e5742ee3a9e88885f6e3eca340ffe91afa2fbd719e14c237fe8c5011
   languageName: node
   linkType: hard
 
@@ -283,13 +283,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@acmekit/cli@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/cli@npm:2.13.3"
+"@acmekit/cli@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/cli@npm:2.13.4"
   dependencies:
-    "@acmekit/deps": "npm:2.13.3"
-    "@acmekit/telemetry": "npm:2.13.3"
-    "@acmekit/utils": "npm:2.13.3"
+    "@acmekit/deps": "npm:2.13.4"
+    "@acmekit/telemetry": "npm:2.13.4"
+    "@acmekit/utils": "npm:2.13.4"
     "@types/express": "npm:^4.17.21"
     chalk: "npm:^4.1.2"
     configstore: "npm:^5.0.1"
@@ -313,19 +313,19 @@ __metadata:
     yargs: "npm:^17.7.2"
   bin:
     acmekit: cli.js
-  checksum: 10c0/f88880b81b617a815e4e4fcf4a1558aaad85c9abc5c5fa8c96fcb209d721ef00c34561165f7072ae5254864558fa6f2981a9d179457a1a8ad3ff9068830962b2
+  checksum: 10c0/341807efacf132fc7bd7ebde1ead10e887fefa3c271d06af4ac0b496afa579f13443d841e65a4bd21d36dcb0d35589b6ccb49b3304890f1a60f2f343c2ba4bc6
   languageName: node
   linkType: hard
 
-"@acmekit/core-flows@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/core-flows@npm:2.13.3"
+"@acmekit/core-flows@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/core-flows@npm:2.13.4"
   dependencies:
     csv-parse: "npm:^5.6.0"
     json-2-csv: "npm:^5.5.4"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/755044f34ec12f30a9361e7bc5e5e95da7f68b25670b13611e1f8479fdc9edd3ef312760ffd6ef9f4ebcc9b51971a1944ec540588c41aac0034a0f0c3a600ce4
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/f816a60e5d2ac74125b9de161e8ed854d4d422ed3f4f3e0b789011e4bc8326849e2c16ee13b505d26509621e42bb24bcc2433ea05a9258f4cb88a7686381de22
   languageName: node
   linkType: hard
 
@@ -338,23 +338,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@acmekit/customer@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/customer@npm:2.13.3"
+"@acmekit/customer@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/customer@npm:2.13.4"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/5d815092c00a3eec02292c1b800cf1eb36e6a59ed472c0ea59a8bcb83eead79b9c0c26b81bdd7b7b791e597454eca8f5d819942a999d38f5f7d4dce6387e3bc7
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/bab80e739c3b8594635efc963bfbb33b715e3ba485ab90a1a7e0452864f7c2ec5ebe234ee9a8866217839fa03f3c5cc673f7e5a3f3e428ea360ce6fa13192842
   languageName: node
   linkType: hard
 
-"@acmekit/dashboard@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/dashboard@npm:2.13.3"
+"@acmekit/dashboard@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/dashboard@npm:2.13.4"
   dependencies:
-    "@acmekit/admin-shared": "npm:2.13.3"
-    "@acmekit/icons": "npm:2.13.3"
-    "@acmekit/js-sdk": "npm:2.13.3"
-    "@acmekit/ui": "npm:4.1.3"
+    "@acmekit/admin-shared": "npm:2.13.4"
+    "@acmekit/icons": "npm:2.13.4"
+    "@acmekit/js-sdk": "npm:2.13.4"
+    "@acmekit/ui": "npm:4.1.4"
     "@ariakit/react": "npm:^0.4.15"
     "@babel/runtime": "npm:^7.26.10"
     "@dnd-kit/core": "npm:^6.1.0"
@@ -390,13 +390,13 @@ __metadata:
     react-jwt: "npm:^1.2.0"
     react-router-dom: "npm:6.30.3"
     zod: "npm:3.25.76"
-  checksum: 10c0/706ebd5c39938dde7e7688d0bfb0db0ff06fd0cef8d52f08e12a17cad20b096715ace46f13f18de308c8a95f1b464895df100b2e1f6a80942796892e8621b446
+  checksum: 10c0/c6c99583e9a434788c3a254e2650c6d838ab58c2b4bcfb26a0895793b1dc78271d663bab14092c6e7e35a4c6a570add4960a415fe78535c59dfbd18b016701ed
   languageName: node
   linkType: hard
 
-"@acmekit/deps@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/deps@npm:2.13.3"
+"@acmekit/deps@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/deps@npm:2.13.4"
   dependencies:
     "@mikro-orm/cli": "npm:6.4.16"
     "@mikro-orm/core": "npm:6.4.16"
@@ -411,74 +411,74 @@ __metadata:
     awilix: "npm:^8.0.1"
     pg: "npm:^8.16.3"
     zod: "npm:3.25.76"
-  checksum: 10c0/b055056bbb7e098f9fa0c7dd1aa3ac7eea0dd90ce1cd1e16557e69a939de484c15733e6ce04d28ce75b09fba0e8878ac707dc40f1a8e6e9aef82a896bea0e70e
+  checksum: 10c0/9f143c701b237356518627d9c5d2288332735691f2003c39bb2c818d1d5e8dfbff0a6198ef25b0c65674fc6ca1253a0b854ac237637e46a6a312d12862f0502f
   languageName: node
   linkType: hard
 
-"@acmekit/event-bus-local@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/event-bus-local@npm:2.13.3"
+"@acmekit/event-bus-local@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/event-bus-local@npm:2.13.4"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/acbd64dbc74188d5bb13d3500af3ee1db4fe8a7da74d24490696184ceb7c840d3d4a8861006e2076f62fc81aee3aba0de387eaf8f6dd5b91348a691a6e2e7925
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/530e93e92d7fd40bd9a1de096be244924ca4dd5c24f84161176c6be2eeff05615025908b601e9b00bf208ce3f1ef98636bf82d07d5cae4d93310321e4c79f3e6
   languageName: node
   linkType: hard
 
-"@acmekit/event-bus-redis@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/event-bus-redis@npm:2.13.3"
+"@acmekit/event-bus-redis@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/event-bus-redis@npm:2.13.4"
   dependencies:
     bullmq: "npm:5.13.0"
     ioredis: "npm:^5.4.1"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/ddc54f4d1db4b01ef1285a1079d658848888aee37ab657df0870732d3764bf39f9bb01d0c01464d50c6a33209386c9391b8898bbbbdcb4aad470228834cfa998
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/a5e50b268787ad82f3b89b60435b91179105e1be629be86b621961d96ea571f44f082210c822ec134123c5d372acf2cfa74af54f721287e18afd328757ad8f1b
   languageName: node
   linkType: hard
 
-"@acmekit/file-local@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/file-local@npm:2.13.3"
+"@acmekit/file-local@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/file-local@npm:2.13.4"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/443b55a436789d8e0aa2c9b397716a422290858ffc1b6443b77dff8b4c09be861ca490d6fb43d61ff6d28290497ecda710c14fe1042d6b28b8128e231a3e3d8d
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/747d46cf7c61e571edb4e7b38c56609591ff2a7fd5cf0f4b52e0e875259458e0a5e0712ae877bc742b9f98227fd18954bf2e0e0ddb4a727a04bc9c8746c66539
   languageName: node
   linkType: hard
 
-"@acmekit/file-s3@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/file-s3@npm:2.13.3"
+"@acmekit/file-s3@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/file-s3@npm:2.13.4"
   dependencies:
     "@aws-sdk/client-s3": "npm:^3.556.0"
     "@aws-sdk/lib-storage": "npm:^3.556.0"
     "@aws-sdk/s3-request-presigner": "npm:^3.556.0"
     ulid: "npm:^2.3.0"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/d9deae5df2f78d341617669e73d197e7ed00d8ceb81e3555acb3c5523ce7a35d629dc626e5c801e585281f97f81a341f5b0a5f21486bd76669ea338291c3b473
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/41b4a1a62694923c81599a1d5862d0f3fd0da189ee5004acda614efe961d769557cf3652d603433838686bf6c8f6b65530154f5c7d6a4228fe26c4be680a9089
   languageName: node
   linkType: hard
 
-"@acmekit/file@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/file@npm:2.13.3"
+"@acmekit/file@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/file@npm:2.13.4"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/16c1178a864d681f90acbda4020a1a70c5bbacd059c8610804cdc522ab7ff9fa27beabed88e20a68034bdb7d40eca181ae0d82f9787ae72cd9fec7ab29aa0f61
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/fe1aac92194e4d59155de3c9ad3651a4b763a9f9b87513266a1a557d173c4e82137fa369139e6ebb524e89ba77b9dbfb9361fb1474239ecd0eca3587dfe8d6a8
   languageName: node
   linkType: hard
 
-"@acmekit/framework@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/framework@npm:2.13.3"
+"@acmekit/framework@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/framework@npm:2.13.4"
   dependencies:
-    "@acmekit/deps": "npm:2.13.3"
-    "@acmekit/modules-sdk": "npm:2.13.3"
-    "@acmekit/orchestration": "npm:2.13.3"
-    "@acmekit/telemetry": "npm:2.13.3"
-    "@acmekit/types": "npm:2.13.3"
-    "@acmekit/utils": "npm:2.13.3"
-    "@acmekit/workflows-sdk": "npm:2.13.3"
+    "@acmekit/deps": "npm:2.13.4"
+    "@acmekit/modules-sdk": "npm:2.13.4"
+    "@acmekit/orchestration": "npm:2.13.4"
+    "@acmekit/telemetry": "npm:2.13.4"
+    "@acmekit/types": "npm:2.13.4"
+    "@acmekit/utils": "npm:2.13.4"
+    "@acmekit/workflows-sdk": "npm:2.13.4"
     "@jercle/yargonaut": "npm:^1.1.5"
     "@types/express": "npm:^4.17.21"
     chokidar: "npm:^4.0.3"
@@ -496,7 +496,7 @@ __metadata:
     tsconfig-paths: "npm:^4.2.0"
     zod-validation-error: "npm:3.5.1"
   peerDependencies:
-    "@acmekit/cli": 2.13.3
+    "@acmekit/cli": 2.13.4
     "@aws-sdk/client-dynamodb": ^3.218.0
     connect-dynamodb: ^3.0.5
     ioredis: ^5.4.1
@@ -511,7 +511,7 @@ __metadata:
       optional: true
   bin:
     acmekit-mikro-orm: dist/mikro-orm-cli/bin.js
-  checksum: 10c0/fb1051f0c409f5a04546d9e8900eedf54b6da397b42531d30cc4c33dd88fa70838e48935a71a6bb8780c323fa54a683298471a34ff573a6e4e961710f98b67f8
+  checksum: 10c0/3076d507414ed89fedd66e938deda27cd5ac2d3a18a4f550cf2927126d4da478489389d9759b196608415231414af01d351a9117c2d33bc84ce7af87ce971f88
   languageName: node
   linkType: hard
 
@@ -533,21 +533,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@acmekit/icons@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/icons@npm:2.13.3"
+"@acmekit/icons@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/icons@npm:2.13.4"
   peerDependencies:
     react: ^18.3.1
-  checksum: 10c0/db627350d0a784524363a5100589056fb9d0da22e11cf2fe9374ed2830b96a4267fe9dc4d7f18f35a578e0b5336564a36a8b6a35b351a25fb4acfe08d77ed671
+  checksum: 10c0/9f4dee9038396ca4236c0e0f6400f57eff3677c9a081d8013c9630219318ae0dcd2e065b939d172faff8600212933b36a6f5fd2edf405677e436ff836dfe3ea8
   languageName: node
   linkType: hard
 
-"@acmekit/index@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/index@npm:2.13.3"
+"@acmekit/index@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/index@npm:2.13.4"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/2d20246702e3da242ca01d13a9481d1038cfe6a3787f5a9ab72bbf90e1140a314a364f3f37330b103eb0bf9d3533578709b43d2db26c29665bc6e7f19a5715b1
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/3aad2cbfbbf785c206aa70387b0731c093bb0679e2afcbea4215e02c185031e7be8c2eaa65dc7d4e05128186fbdb8412560e6ff17fa9c23b64ad044910be10a2
   languageName: node
   linkType: hard
 
@@ -560,102 +560,102 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@acmekit/js-sdk@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/js-sdk@npm:2.13.3"
+"@acmekit/js-sdk@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/js-sdk@npm:2.13.4"
   dependencies:
     fetch-event-stream: "npm:^0.1.5"
     qs: "npm:^6.12.1"
-  checksum: 10c0/83b214381bee4d15c09d2c0c584928720dd271274b2da833d471d07d3d00c0cbeb8758c2604956b28bf5cd6cfedee0819a87fdf5da638de99ee471d0ab5b0d84
+  checksum: 10c0/c8b1cd383cc59fe9f5f76d4db24c6f18f96662d10f11beb2cb36313ec03db850558ec860b821acb97ed60e4e5e07ec9903d5255e9f95e8905da089f6d4327e1d
   languageName: node
   linkType: hard
 
-"@acmekit/link-modules@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/link-modules@npm:2.13.3"
+"@acmekit/link-modules@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/link-modules@npm:2.13.4"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/786cd81e6817c1c5557399d559d326ea069542338ac2c578381533b3074dbd600ef115aa91ce5c0a47ff07a4b6ee6711b0739cca83a45d441adfa442e9c90da8
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/414130ffeba486d6c499c2d2cf3dcaa7bbc419f7a69381c46dd5a82d4053531ddb66a8624de46e7c7a32da32eadd7661d10944b246f9d7eb3d442b069bebc59f
   languageName: node
   linkType: hard
 
-"@acmekit/locking-postgres@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/locking-postgres@npm:2.13.3"
+"@acmekit/locking-postgres@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/locking-postgres@npm:2.13.4"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/8cfb88c20137913fb2606e563bc0fac0d3dfc802e6f0815c2442672ddd666ff3f18ce7db1e276bc525c2c32361a624c50764daa06158d253c2970b15527215d3
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/0ee8d7e154abcf19a95e5d028ce22e3f715949537526b3165ce23cae2a946656cc76adf6e647cc314fb7e1636cb2434fa8f049d137b84a2d012ff9d74222994f
   languageName: node
   linkType: hard
 
-"@acmekit/locking-redis@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/locking-redis@npm:2.13.3"
+"@acmekit/locking-redis@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/locking-redis@npm:2.13.4"
   dependencies:
     ioredis: "npm:^5.4.1"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/1a35500f067a512df5469d5d07627219dbf1c3bb33fc5b819f269ceb4fb30f013281163343a92fafc21f001b960a14a36b71d0f935b7c221857c750249916380
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/e0cb43496dc50e8c750e9830cf1b82fb46c7cb6dacce3c37ffada777be4956c1bca5db56e2c8b834767ecdd612618d00451ce49e696e6f26fc3bddc07d9ab053
   languageName: node
   linkType: hard
 
-"@acmekit/locking@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/locking@npm:2.13.3"
+"@acmekit/locking@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/locking@npm:2.13.4"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/7fd93917b800c2501ae6681be8e577a6b54e3c6d6a1cd77a826e51a8f37de74c06aa30ccfb980afbc4ceabd74c33621f70b76e815006c4f1ee8e0a9b421782f9
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/ba0bd3472ccd591e884ca9c30ca143f9f2221abeb305a67eb11b8609db7f37828504ed9698870fb4d0e4fad18ae35f0f3b5de6cfcffa94a0b05a370dcadd0ae4
   languageName: node
   linkType: hard
 
-"@acmekit/modules-sdk@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/modules-sdk@npm:2.13.3"
+"@acmekit/modules-sdk@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/modules-sdk@npm:2.13.4"
   dependencies:
-    "@acmekit/deps": "npm:2.13.3"
-    "@acmekit/orchestration": "npm:2.13.3"
-    "@acmekit/utils": "npm:2.13.3"
-  checksum: 10c0/5795d90e5eabb7598df0d545f6cc003c80b243ad6d766385fc8a806d9724976cf7f21f3737a72d52a22ffc1911fc15cb3d1fbed05c4bb87030ce08912cbbde4b
+    "@acmekit/deps": "npm:2.13.4"
+    "@acmekit/orchestration": "npm:2.13.4"
+    "@acmekit/utils": "npm:2.13.4"
+  checksum: 10c0/a39066386c6595a98c4bc4e1cb3590d6d76f369862dde8bd553d028b8b2cb81fa36d76efa61c2a4e1dbaaeb4bc6b08f8757da828d36efa6f59b4969df79628b8
   languageName: node
   linkType: hard
 
-"@acmekit/notification-local@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/notification-local@npm:2.13.3"
+"@acmekit/notification-local@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/notification-local@npm:2.13.4"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/f2ef48841e7af354e1a2194141011f6d0ba09e6ef11a3bf59d4ae2dbe4e35c0c3fc3048c9f4fe7576355b251cf1a44dcaacb7009521299af7c7aa1a629d84e03
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/8e46ff34046cdfbddf0d87507a4c00ec975943b97ea94adb42dd33ee5ac8c3ec10dace306db328d844f8c4511a97c84700115bbc5e844a512c7bfed854cdaff1
   languageName: node
   linkType: hard
 
-"@acmekit/notification-sendgrid@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/notification-sendgrid@npm:2.13.3"
+"@acmekit/notification-sendgrid@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/notification-sendgrid@npm:2.13.4"
   dependencies:
     "@sendgrid/mail": "npm:^8.1.6"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/c60a835b425d58a7d2bb21fb72b3125901613e16d2db67e6c2ccf85653a341a89a3d8a697d4bbc4ff1d9d4fd6f3554b44aa5e7e25508ae5545b1b8d2deb5e3d0
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/a87a3369a100a949db5dbf6276c66920aa34cfe181cef525f87eb5acd1277fef20c260069a383e734a17d06610b38c084b736334057c69a79a61dbf6dad9fc0c
   languageName: node
   linkType: hard
 
-"@acmekit/notification@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/notification@npm:2.13.3"
+"@acmekit/notification@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/notification@npm:2.13.4"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/537608580fa4e3db422555d1305a079acb34e1f1c3069515cc53542f19bffe1b62cdae6dd8b1229d6175ecf46faa3f9d16a227bd688f66f10fa00cb39879a50c
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/99f5bd4b7394d60b7656f26f1340ade46064236bbf627be86dec1fb6e3d63a90835f6b83388e84f2ec1a2796d74b0117caa1836dd55ae2736987733f40f0ac89
   languageName: node
   linkType: hard
 
-"@acmekit/orchestration@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/orchestration@npm:2.13.3"
+"@acmekit/orchestration@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/orchestration@npm:2.13.4"
   dependencies:
-    "@acmekit/deps": "npm:2.13.3"
-    "@acmekit/utils": "npm:2.13.3"
+    "@acmekit/deps": "npm:2.13.4"
+    "@acmekit/utils": "npm:2.13.4"
     ulid: "npm:^2.3.0"
-  checksum: 10c0/d0edc6718f6742b0517eb34415f17246673ef6cfab7ccabd319beceae09fe30e1a23ad32d122ef0b0d4f999858f307cc2485522b18bdf58754b1becb00121d90
+  checksum: 10c0/112d569b64d0e9628d2cb8f9fc0d5e652404363727788dced8bc7eea1447fc7eecaab16662fad7923cebaa6f9d43d1bb34f08e60135c618c230cd5cc559e1671
   languageName: node
   linkType: hard
 
@@ -717,12 +717,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@acmekit/rbac@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/rbac@npm:2.13.3"
+"@acmekit/rbac@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/rbac@npm:2.13.4"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/ea9c8062c811333cfa843631b6ec491ffe83aa9f0631f54df3b2795b79cac4169ac6c17c0d68b982d81734c1a2d6e4cf2e64d159c5516c167f01ad0067f72328
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/c5ad8ee61018a0007154522fb21727a8bd257fdfbc0fc70061f620bd14e4691551fd0927e67e42febe07d8c7f2b34357584b6f343a5930fa112a4d70891ae7b8
   languageName: node
   linkType: hard
 
@@ -744,12 +744,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@acmekit/settings@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/settings@npm:2.13.3"
+"@acmekit/settings@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/settings@npm:2.13.4"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/80143d534c992821b87774c4dc9105c1637d84b0ee24271b110595bdf34b5224fa749be0a74c56622064290c27eb8e6577ffc89826255775916b5f4588596378
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/c1212613a2f9712a31cd8ea5a02e3f3731d2cf86ef1e46228880dbd5c89bf94ecacaf807b743b137c3fe63cb5e23f8c52193b15327c3754ad86375d512bb5666
   languageName: node
   linkType: hard
 
@@ -762,12 +762,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@acmekit/store@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/store@npm:2.13.3"
+"@acmekit/store@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/store@npm:2.13.4"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/43c02c785736cad477d4684305d12cd3fd25fe31c23a754998174bc1f5c6d27b9fd4f4f19931f38c04e837079962251ecfa9256fcd1e91117b548c2a837d2ef1
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/1bb879321c9a0b9700a1d58c5234535c5f7ec0eedd1ec3f74d14a9ab8f9aa728b451b13c11f925e47ed031058d7f2982b78f2d6870d22427bb6488f0e99e0bfa
   languageName: node
   linkType: hard
 
@@ -780,9 +780,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@acmekit/telemetry@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/telemetry@npm:2.13.3"
+"@acmekit/telemetry@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/telemetry@npm:2.13.4"
   dependencies:
     "@babel/runtime": "npm:^7.26.10"
     axios: "npm:^1.13.1"
@@ -793,13 +793,13 @@ __metadata:
     is-docker: "npm:^2.2.1"
     remove-trailing-slash: "npm:^0.1.1"
     uuid: "npm:^9.0.0"
-  checksum: 10c0/9f68e82b3f0ac72d6d258ac1e8268d7d14df317f719d4789d6c15dfc87cd789b220f0469c097c090e1ada587ae3c7783d636e742fab7f36a88cb4db8ffb8a177
+  checksum: 10c0/a656ba3b81d913b64bd5971582834ee9a020a54de8e2531f9da8080f803034040b0b2b9425ac0147f61ba949ec2dbeaa4eff4145198a203c3b08f922787441cd
   languageName: node
   linkType: hard
 
-"@acmekit/test-utils@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/test-utils@npm:2.13.3"
+"@acmekit/test-utils@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/test-utils@npm:2.13.4"
   dependencies:
     "@types/express": "npm:^4.17.21"
     axios: "npm:^1.13.1"
@@ -807,30 +807,30 @@ __metadata:
     get-port: "npm:^5.1.1"
     ulid: "npm:^2.3.0"
   peerDependencies:
-    "@acmekit/acmekit": 2.13.3
-    "@acmekit/core-flows": 2.13.3
-    "@acmekit/framework": 2.13.3
+    "@acmekit/acmekit": 2.13.4
+    "@acmekit/core-flows": 2.13.4
+    "@acmekit/framework": 2.13.4
   peerDependenciesMeta:
     "@acmekit/acmekit":
       optional: true
     "@acmekit/core-flows":
       optional: true
-  checksum: 10c0/90fd9d02a74df9f1975186fb836bc2ea70d0b6448dc7aeb2e8a4b55bd22c693d9ea383206a114882e5786e0102338430dfdae7b025d4556b54811656e8d473b6
+  checksum: 10c0/24a9414ae6d632006fd77b572268d80d78cc56d79ecb2eb9a0fbf9d79cc4f7f709fd59926b1ff72b8a25262d8a84b255ce93c4a5918acd4b8ebfac641026359c
   languageName: node
   linkType: hard
 
-"@acmekit/translation@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/translation@npm:2.13.3"
+"@acmekit/translation@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/translation@npm:2.13.4"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/8b22924a9273adde097a8a17a79fbebf3846400c131e85e6e5d0a6d3af69194faae903b24eb8339bbabd603dcacace4468a5e8bad50c03ca7b1b7eed9af338b0
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/55809b7721f0fe249b8559ec738a50f803fb88a68e033167cdab48c58cf35996178cbb5721fd4a2529d0a263b5ec686789d6a8614c671a401c86c7a9b5047f2b
   languageName: node
   linkType: hard
 
-"@acmekit/types@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/types@npm:2.13.3"
+"@acmekit/types@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/types@npm:2.13.4"
   dependencies:
     bignumber.js: "npm:^9.1.2"
   peerDependencies:
@@ -841,15 +841,15 @@ __metadata:
       optional: true
     vite:
       optional: true
-  checksum: 10c0/fc846a0fd4c955694ef1d9e00fea5bde34b4d2997c58a7c194830248f8a64281a21751cee1c6a26878fff5b9467c7baf0984043fd46fdd017244e07b681b4b3c
+  checksum: 10c0/a911332a2f4a0e22a9b958952849d28714249f7eaa9e51df79a9240332bfdbdc1411a8c06c6490f1a3a7af6458f70dac4f42a5642bc3653bc384d51b06021376
   languageName: node
   linkType: hard
 
-"@acmekit/ui@npm:4.1.3":
-  version: 4.1.3
-  resolution: "@acmekit/ui@npm:4.1.3"
+"@acmekit/ui@npm:4.1.4":
+  version: 4.1.4
+  resolution: "@acmekit/ui@npm:4.1.4"
   dependencies:
-    "@acmekit/icons": "npm:2.13.3"
+    "@acmekit/icons": "npm:2.13.4"
     "@dnd-kit/core": "npm:^6.1.0"
     "@dnd-kit/sortable": "npm:^8.0.0"
     "@dnd-kit/utilities": "npm:^3.2.2"
@@ -870,26 +870,26 @@ __metadata:
   peerDependencies:
     react: ^18.3.1
     react-dom: ^18.3.1
-  checksum: 10c0/bce94cdb02df2420b1a93b73cf088910bb26cf335851a7fb846fbab0d3aa44b2ea622b875a94bdd06952bf094aa7b61076d1eb89b0b525fe160963d6dbf0f0bf
+  checksum: 10c0/6dbc09318d215042af7e70f76da61a085264ad65974d95b135b35cee3c95cc3e93da9eedbf4df235deb45cb35e39aec5930254d4534c88c26165c4043c77c97b
   languageName: node
   linkType: hard
 
-"@acmekit/user@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/user@npm:2.13.3"
+"@acmekit/user@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/user@npm:2.13.4"
   dependencies:
     jsonwebtoken: "npm:^9.0.2"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/0e456b175d0a85aac918803af39466249e06a9cd9e85c2ce646219d2b514063f5f4cffcde69df37080609ed9e0701f592a75c73e0d627a1736ae7d02624970eb
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/194311d5cd176ffc8d8b43c702835904531950db82f151de6290120b0acd69a52223374029eccdf433a24e279ddba48472d038dbe8b9e6ee5cdf0695507c2305
   languageName: node
   linkType: hard
 
-"@acmekit/utils@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/utils@npm:2.13.3"
+"@acmekit/utils@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/utils@npm:2.13.4"
   dependencies:
-    "@acmekit/deps": "npm:2.13.3"
+    "@acmekit/deps": "npm:2.13.4"
     "@graphql-codegen/core": "npm:^4.0.2"
     "@graphql-codegen/typescript": "npm:^4.0.9"
     "@graphql-tools/merge": "npm:^9.0.7"
@@ -905,45 +905,45 @@ __metadata:
     ulid: "npm:^2.3.0"
   peerDependencies:
     express: ^4.21.0
-  checksum: 10c0/71a04fcd7fa800c4be742c876735eff03f67c5b523b85f39fd26971e6418c3bfc6ebac2b48bd06e3de550ee1289ea63844948b695f08f3f1788739b54a773a97
+  checksum: 10c0/959711725b8e7835f731dbcbb7b02a3578f41ddb380b6f05ec429a3d07e8e07f52fda65d3096fb16e9fe49f4e93a6b8a4601f4e2b75baefd251dbcfdeab329d1
   languageName: node
   linkType: hard
 
-"@acmekit/workflow-engine-inmemory@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/workflow-engine-inmemory@npm:2.13.3"
+"@acmekit/workflow-engine-inmemory@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/workflow-engine-inmemory@npm:2.13.4"
   dependencies:
     cron-parser: "npm:^4.9.0"
     ulid: "npm:^2.3.0"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/6b5f99792c0860ef6eea20706cb8a068ae0aaab321a7ef15b2652ab7b26acb7bce980ffac4266fb825cafe62c4f1acb4c81bb985361e03fbfd2ab2a25a93a4b7
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/6c18e1c1a495cb9394574964e14672737190ae874930b062700422c603b69553644b2c7e21733dd52bd3084b725379c315a8096806c58ae71d359888bc02fc17
   languageName: node
   linkType: hard
 
-"@acmekit/workflow-engine-redis@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/workflow-engine-redis@npm:2.13.3"
+"@acmekit/workflow-engine-redis@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/workflow-engine-redis@npm:2.13.4"
   dependencies:
     bullmq: "npm:5.13.0"
     ioredis: "npm:^5.4.1"
     ulid: "npm:^2.3.0"
   peerDependencies:
-    "@acmekit/framework": 2.13.3
-  checksum: 10c0/f6ab716f6e588ca90f84d6a66692a504838096b69f32f9eac4a90375313ca03177f46143439984f1c22524590f6ebaccbe09d05615adb38df4d33bcdf6dd2fb7
+    "@acmekit/framework": 2.13.4
+  checksum: 10c0/07d90a4d35b3f1c9600d100e9ae9abc7e16e07e2193e2c3a6e221950f74ab3a00de03ed3e758c180bd255e6bbe508f160386f7a9a6a803d2f2dd8b22f2d025aa
   languageName: node
   linkType: hard
 
-"@acmekit/workflows-sdk@npm:2.13.3":
-  version: 2.13.3
-  resolution: "@acmekit/workflows-sdk@npm:2.13.3"
+"@acmekit/workflows-sdk@npm:2.13.4":
+  version: 2.13.4
+  resolution: "@acmekit/workflows-sdk@npm:2.13.4"
   dependencies:
-    "@acmekit/deps": "npm:2.13.3"
-    "@acmekit/modules-sdk": "npm:2.13.3"
-    "@acmekit/orchestration": "npm:2.13.3"
-    "@acmekit/utils": "npm:2.13.3"
+    "@acmekit/deps": "npm:2.13.4"
+    "@acmekit/modules-sdk": "npm:2.13.4"
+    "@acmekit/orchestration": "npm:2.13.4"
+    "@acmekit/utils": "npm:2.13.4"
     ulid: "npm:^2.3.0"
-  checksum: 10c0/a36e6765fdc11126a5c5485210048c6251472b78124412f05e6486f322db88d8282ff553c7962359a3d984483a56c0bce1f501b95149d17b4b6d27cff42d8b89
+  checksum: 10c0/b69f9f6e2ed4b6a427eb97f1695a2491d9f0ce8d553aaa885d9c157fa836722f4cd3f3306e8516acd170143678bb1dec3b6d08bfe4ad256fb15678a9eca47090
   languageName: node
   linkType: hard
 
@@ -8868,11 +8868,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "acmekit-starter-default@workspace:."
   dependencies:
-    "@acmekit/acmekit": "npm:2.13.3"
-    "@acmekit/admin-sdk": "npm:2.13.3"
-    "@acmekit/cli": "npm:2.13.3"
-    "@acmekit/framework": "npm:2.13.3"
-    "@acmekit/test-utils": "npm:2.13.3"
+    "@acmekit/acmekit": "npm:2.13.4"
+    "@acmekit/admin-sdk": "npm:2.13.4"
+    "@acmekit/cli": "npm:2.13.4"
+    "@acmekit/framework": "npm:2.13.4"
+    "@acmekit/test-utils": "npm:2.13.4"
     "@swc/core": "npm:^1.7.28"
     "@swc/jest": "npm:^0.2.36"
     "@types/jest": "npm:^29.5.13"
