@@ -28,8 +28,7 @@
     "@acmekit/icons": "2.13.18",
     "@acmekit/dashboard": "^2.13.18",
     "@acmekit/framework": "2.13.18",
-    "@acmekit/ui": "4.1.2",
-    "payment": "file:.yalc/payment"
+    "@acmekit/ui": "4.1.2"
   },
   "devDependencies": {
     "@acmekit/test-utils": "2.13.18",
