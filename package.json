@@ -1,5 +1,5 @@
 {
-  "name": "acmekit-starter-default",
+  "name": "acmecit-starter-default",
   "version": "0.0.1",
   "description": "A starter for Acmekit projects.",
   "author": "Acmekit (https://acmekit.com)",
@@ -21,15 +21,18 @@
     "test:unit": "TEST_TYPE=unit NODE_OPTIONS=--experimental-vm-modules jest --silent --runInBand --forceExit"
   },
   "dependencies": {
-    "@acmekit/acmekit": "2.13.15",
-    "@acmekit/admin-sdk": "2.13.15",
-    "@acmekit/admin-shared": "^2.13.15",
-    "@acmekit/cli": "2.13.15",
-    "@acmekit/dashboard": "^2.13.15",
-    "@acmekit/framework": "2.13.15"
+    "@acmekit/acmekit": "2.13.18",
+    "@acmekit/admin-sdk": "2.13.18",
+    "@acmekit/admin-shared": "^2.13.18",
+    "@acmekit/cli": "2.13.18",
+    "@acmekit/icons": "2.13.18",
+    "@acmekit/dashboard": "^2.13.18",
+    "@acmekit/framework": "2.13.18",
+    "@acmekit/ui": "4.1.2",
+    "payment": "file:.yalc/payment"
   },
   "devDependencies": {
-    "@acmekit/test-utils": "2.13.15",
+    "@acmekit/test-utils": "2.13.18",
     "@swc/core": "^1.7.28",
     "@swc/jest": "^0.2.36",
     "@types/jest": "^29.5.13",
@@ -50,5 +53,6 @@
   },
   "bin": {
     "acmekit": "node_modules/@acmekit/cli/cli.js"
-  }
+  },
+  "packageManager": "pnpm@10.26.0"
 }
