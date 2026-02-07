@@ -60,13 +60,13 @@ For example, to execute the workflow in an API route:
 
 ```ts
 import type {
-  AcmekitRequest,
+  AcmeKitRequest,
   AcmekitResponse,
 } from "@acmekit/framework"
 import myWorkflow from "../../../workflows/hello-world"
 
 export async function GET(
-  req: AcmekitRequest,
+  req: AcmeKitRequest,
   res: AcmekitResponse
 ) {
   const { result } = await myWorkflow(req.scope)

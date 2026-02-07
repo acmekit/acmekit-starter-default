@@ -10,10 +10,10 @@ import { AcmekitIntegrationTestRunner } from "acmekit-test-utils"
 AcmekitIntegrationTestRunner({
   testSuite: ({ api, getContainer }) => {
     describe("Custom endpoints", () => {
-      describe("GET /store/custom", () => {
+      describe("GET /client/custom", () => {
         it("returns correct message", async () => {
           const response = await api.get(
-            `/store/custom`
+            `/client/custom`
           )
   
           expect(response.status).toEqual(200)

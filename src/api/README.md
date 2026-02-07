@@ -6,12 +6,12 @@ An API Route is created in a TypeScript or JavaScript file under the `/src/api` 
 
 > Learn more about API Routes in [this documentation](https://docs.acmekitjs.com/learn/fundamentals/api-routes)
 
-For example, to create a `GET` API Route at `/store/hello-world`, create the file `src/api/store/hello-world/route.ts` with the following content:
+For example, to create a `GET` API Route at `/client/hello-world`, create the file `src/api/client/hello-world/route.ts` with the following content:
 
 ```ts
-import type { AcmekitRequest, AcmekitResponse } from "@acmekit/framework/http";
+import type { AcmeKitRequest, AcmekitResponse } from "@acmekit/framework/http";
 
-export async function GET(req: AcmekitRequest, res: AcmekitResponse) {
+export async function GET(req: AcmeKitRequest, res: AcmekitResponse) {
   res.json({
     message: "Hello world!",
   });
@@ -35,17 +35,17 @@ You can define a handler for each of these methods by exporting a function with 
 For example:
 
 ```ts
-import type { AcmekitRequest, AcmekitResponse } from "@acmekit/framework/http";
+import type { AcmeKitRequest, AcmekitResponse } from "@acmekit/framework/http";
 
-export async function GET(req: AcmekitRequest, res: AcmekitResponse) {
+export async function GET(req: AcmeKitRequest, res: AcmekitResponse) {
   // Handle GET requests
 }
 
-export async function POST(req: AcmekitRequest, res: AcmekitResponse) {
+export async function POST(req: AcmeKitRequest, res: AcmekitResponse) {
   // Handle POST requests
 }
 
-export async function PUT(req: AcmekitRequest, res: AcmekitResponse) {
+export async function PUT(req: AcmeKitRequest, res: AcmekitResponse) {
   // Handle PUT requests
 }
 ```
@@ -58,11 +58,11 @@ For example, if you want to define a route that takes a `productId` parameter, y
 
 ```ts
 import type {
-  AcmekitRequest,
+  AcmeKitRequest,
   AcmekitResponse,
 } from "@acmekit/framework/http"
 
-export async function GET(req: AcmekitRequest, res: AcmekitResponse) {
+export async function GET(req: AcmeKitRequest, res: AcmekitResponse) {
   const { productId } = req.params;
 
   res.json({
@@ -81,12 +81,12 @@ The Acmekit Container is available on `req.scope`. Use it to access modules' mai
 
 ```ts
 import type {
-  AcmekitRequest,
+  AcmeKitRequest,
   AcmekitResponse,
 } from "@acmekit/framework/http"
 
 export const GET = async (
-  req: AcmekitRequest,
+  req: AcmeKitRequest,
   res: AcmekitResponse
 ) => {
   const productModuleService = req.scope.resolve("product")
@@ -103,18 +103,18 @@ export const GET = async (
 
 You can apply middleware to your routes by creating a file called `/api/middlewares.ts`. This file must export a configuration object with what middleware you want to apply to which routes.
 
-For example, if you want to apply a custom middleware function to the `/store/custom` route, you can do so by adding the following to your `/api/middlewares.ts` file:
+For example, if you want to apply a custom middleware function to the `/client/custom` route, you can do so by adding the following to your `/api/middlewares.ts` file:
 
 ```ts
 import { defineMiddlewares } from "@acmekit/framework/http"
 import type {
-  AcmekitRequest,
+  AcmeKitRequest,
   AcmekitResponse,
   AcmekitNextFunction,
 } from "@acmekit/framework/http";
 
 async function logger(
-  req: AcmekitRequest,
+  req: AcmeKitRequest,
   res: AcmekitResponse,
   next: AcmekitNextFunction
 ) {
@@ -125,7 +125,7 @@ async function logger(
 export default defineMiddlewares({
   routes: [
     {
-      matcher: "/store/custom",
+      matcher: "/client/custom",
       middlewares: [logger],
     },
   ],

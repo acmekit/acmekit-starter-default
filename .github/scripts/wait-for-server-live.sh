@@ -8,7 +8,7 @@ do
     --write-out %{http_code} \
     --silent\
     --output /dev/null\
-    http://localhost:9000/store/products)
+    http://localhost:9000/health)
 
 echo $status_code
   if [[ "$status_code" -ne 000 ]] ; then

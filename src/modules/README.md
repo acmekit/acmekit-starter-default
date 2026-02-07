@@ -96,12 +96,12 @@ You can use the module in customizations within the Acmekit application, such as
 For example, to use the module in an API route:
 
 ```ts
-import { AcmekitRequest, AcmekitResponse } from "@acmekit/framework"
+import { AcmeKitRequest, AcmekitResponse } from "@acmekit/framework"
 import BlogModuleService from "../../../modules/blog/service"
 import { BLOG_MODULE } from "../../../modules/blog"
 
 export async function GET(
-  req: AcmekitRequest,
+  req: AcmeKitRequest,
   res: AcmekitResponse
 ): Promise<void> {
   const blogModuleService: BlogModuleService = req.scope.resolve(
