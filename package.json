@@ -28,7 +28,7 @@
     "@acmekit/icons": "2.13.23",
     "@acmekit/dashboard": "^2.13.23",
     "@acmekit/framework": "2.13.23",
-    "@acmekit/ui": "4.1.2"
+    "@acmekit/ui": "4.1.19"
   },
   "devDependencies": {
     "@acmekit/test-utils": "2.13.23",
